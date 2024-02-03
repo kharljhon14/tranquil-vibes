@@ -1,3 +1,4 @@
+import { GiAbstract065 } from 'react-icons/gi';
 import Button from '../../components/button/Button';
 import sytles from './header.module.css';
 
@@ -6,10 +7,11 @@ export default function Header() {
     <header className={sytles.header}>
       <div>
         <a
-          className={sytles.title}
+          className={sytles.logo}
           href="/"
         >
-          Tranquil Vibes
+          <GiAbstract065 size={36} />
+          <span>Tranquil Vibes</span>
         </a>
       </div>
       <nav>

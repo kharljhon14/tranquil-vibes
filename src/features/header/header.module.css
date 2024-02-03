@@ -5,8 +5,9 @@
     padding: 2rem 0;
 }
 
-
-.title {
+.logo {
+    display: flex;
+    align-items: center;
     color: #2b2c30;
     font-family: 'Quicksand', sans-serif;
     font-weight: 800;
@@ -32,10 +33,9 @@
     font-weight: 700;
     font-size: 1.1rem;
     text-decoration: none;
-    transition: all .3s ease;
+    transition: all 0.3s ease;
 }
 
 .navA:hover {
     font-size: 1.15rem;
-
 }
