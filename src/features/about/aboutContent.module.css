@@ -1,0 +1,47 @@
+.aboutUs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 8rem;
+}
+
+.aboutUs img {
+    width: 50%;
+    height: auto;
+    margin-right: 2rem;
+}
+
+
+.content h2 {
+    font-size: 4rem;
+    font-weight: 500;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 2rem;
+}
+
+
+.content h3 {
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.content p {
+    font-size: 1.3rem;
+    line-height: 1.5;
+}
+
+.introduction {
+    margin-bottom: 2rem;
+}
+
+.chooseUs ul {
+    list-style: circle;
+    padding-left: 1.5rem;
+}
+
+.chooseUs li {
+    margin-top: 1rem;
+    font-size: 1.3rem;
+
+}

@@ -6,7 +6,7 @@
     text-align: center;
     height: 80vh;
     background-color: #f7e1d2;
-    clip-path: polygon(0 0, 100% 1%, 100% 100%, 0 88%);
+    clip-path: polygon(0 0, 100% 0%, 100% 90%, 0 100%);
 }
 
 .hero h1 {
