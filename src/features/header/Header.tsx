@@ -10,7 +10,7 @@ export default function Header() {
           className={sytles.logo}
           href="/"
         >
-          <GiAbstract065 size={36} />
+          <GiAbstract065 size={46} />
           <span>Tranquil Vibes</span>
         </a>
       </div>
