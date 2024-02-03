@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&family=Quicksand:wght@300;400;500;600;700&display=swap');
 
-h1 {
-    font-family: 'Playfair Display', serif;
+body {
+    background-color: #f7e1d2;
+    color: #2b2c30;
+    margin: 0 8rem;
 }
