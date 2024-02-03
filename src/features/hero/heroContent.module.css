@@ -1,0 +1,23 @@
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 10rem;
+    padding-bottom: 5rem;
+}
+
+.hero h1 {
+    line-height: 1.4;
+    letter-spacing: 8px;
+    font-size: 5rem;
+    font-weight: 600;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.7rem;
+    margin-bottom: 2.5rem;
+}
