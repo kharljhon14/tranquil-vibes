@@ -5,6 +5,7 @@ import Header from './features/header/Header';
 import HeroContent from './features/hero/HeroContent';
 import HowItWorksContent from './features/how-it-works/HowItWorksContent';
 import PlansContent from './features/plans/PlansContent';
+import SupportedContent from './features/supported/SupportedContent';
 
 export default function App() {
   return (
@@ -14,6 +15,7 @@ export default function App() {
       <AboutContent />
       <HowItWorksContent />
       <PlansContent />
+      <SupportedContent />
     </main>
   );
 }
