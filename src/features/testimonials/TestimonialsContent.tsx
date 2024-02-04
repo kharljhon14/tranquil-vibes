@@ -4,6 +4,7 @@ import styles from './testimonialsContent.module.css';
 import { CSSProperties } from 'react';
 import { GrFormNext, GrFormPrevious } from 'react-icons/gr';
 import { FaHeart } from 'react-icons/fa';
+import { motion } from 'framer-motion';
 
 const arrowStyles: CSSProperties = {
   position: 'absolute',
@@ -22,9 +23,26 @@ export default function TestimonialsContent() {
     <div className={styles.testimonials}>
       <h2>What Our Members Say</h2>
       <div className={styles.carousel}>
-        <FaHeart className={styles.heart1} />
-        <FaHeart className={styles.heart2} />
+        <motion.div
+          animate={{
+            rotate: [-10, 0, 10, 0, -10],
+          }}
+          transition={{ repeat: Infinity }}
+          className={styles.heart1}
+        >
+          <FaHeart />
+        </motion.div>
+        <motion.div
+          animate={{
+            rotate: [0, -10, 0, 10, 0],
+          }}
+          transition={{ repeat: Infinity }}
+          className={styles.heart2}
+        >
+          <FaHeart />
+        </motion.div>
         <Carousel
+          autoPlay
           showStatus={false}
           showArrows
           infiniteLoop

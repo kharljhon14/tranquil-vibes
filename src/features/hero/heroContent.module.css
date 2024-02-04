@@ -4,7 +4,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: 80vh;
+    height: 100vh;
     background-color: #f7e1d2;
     clip-path: polygon(0 0, 100% 0%, 100% 90%, 0 100%);
 }

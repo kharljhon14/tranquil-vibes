@@ -1,11 +1,11 @@
 .plansContainer {
     background-color: #f7e1d2;
-    clip-path: polygon(0 0, 100% 6%, 100% 100%, 0 100%);
+    clip-path: polygon(0 0, 100% 8%, 100% 100%, 0 100%);
     padding-top: 3rem;
 }
 
 .plans {
-    padding-bottom: 4rem;
+    padding-bottom: 6rem;
     margin: 0 8rem;
 }
 

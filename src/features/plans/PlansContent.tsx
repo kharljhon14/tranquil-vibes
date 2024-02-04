@@ -1,5 +1,6 @@
 import PlanCard, { Plan } from './PlanCard';
 import styles from './plansContent.module.css';
+import { motion } from 'framer-motion';
 
 const PLANS: Array<Plan> = [
   {
@@ -21,7 +22,13 @@ const PLANS: Array<Plan> = [
 
 export default function PlansContent() {
   return (
-    <div className={styles.plansContainer}>
+    <motion.div
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      transition={{ duration: 1.3 }}
+      viewport={{ once: true }}
+      className={styles.plansContainer}
+    >
       <div className={styles.plans}>
         <h2>Choose the Plan That Aligns with Your Serenity Goals</h2>
         <div className={styles.planCards}>
@@ -33,6 +40,6 @@ export default function PlansContent() {
           ))}
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 }
