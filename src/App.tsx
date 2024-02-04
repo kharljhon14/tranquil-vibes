@@ -3,6 +3,7 @@ import AboutContent from './features/about/AboutContent';
 
 import Header from './features/header/Header';
 import HeroContent from './features/hero/HeroContent';
+import HowItWorksContent from './features/how-it-works/HowItWorksContent';
 
 export default function App() {
   return (
@@ -10,6 +11,7 @@ export default function App() {
       <Header />
       <HeroContent />
       <AboutContent />
+      <HowItWorksContent />
     </main>
   );
 }
