@@ -1,0 +1,40 @@
+.card {
+    border: solid 1px rgba(0, 0, 0, 0.1);
+    border-radius: .6rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    padding: 1.3rem;
+    width: 20rem;
+    height: 28rem;
+    background-color: #fffcfa;
+    cursor: pointer;
+}
+
+.card h4 {
+    margin-bottom: 1.3rem;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.imgContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card img {
+    width: 300px;
+    height: 300px;
+    object-position: center;
+    object-fit: cover;
+}
+
+.card ul {
+    list-style: circle;
+    padding-left: 1.5rem;
+}
+
+.card li {
+    margin-top: 1rem;
+    font-size: 1rem;
+
+}

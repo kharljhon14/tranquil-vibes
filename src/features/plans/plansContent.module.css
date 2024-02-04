@@ -1,0 +1,26 @@
+.plansContainer {
+    background-color: #f7e1d2;
+    clip-path: polygon(0 0, 100% 6%, 100% 100%, 0 100%);
+    padding-top: 3rem;
+}
+
+.plans {
+    padding-bottom: 4rem;
+    margin: 0 8rem;
+}
+
+.plans h2 {
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 500;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 6rem;
+    margin-top: 6rem;
+}
+
+.planCards {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
