@@ -1,0 +1,48 @@
+.testimonials {
+    margin: 0 8rem;
+}
+
+.testimonials h2 {
+    font-size: 4rem;
+    font-weight: 500;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 4rem;
+    text-align: center;
+}
+
+.carousel {
+    background-color: #f7e1d2;
+    border-radius: 1rem;
+    position: relative;
+}
+
+.heart1 {
+    position: absolute;
+    top: -1.9rem;
+    left: -1.6rem;
+    transform: rotateZ(-20deg);
+    font-size: 5rem;
+    color: #ee4b4a;
+}
+
+.heart2 {
+    position: absolute;
+    bottom: -1.7rem;
+    right: -2rem;
+    transform: rotateZ(10deg);
+    font-size: 4rem;
+    color: #ee4b4a;
+}
+
+.carousel p {
+    font-size: 1.5rem;
+    font-style: italic;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+}
+
+.carousel span {
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding-bottom: 2rem;
+}
