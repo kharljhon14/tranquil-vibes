@@ -6,6 +6,7 @@ import HeroContent from './features/hero/HeroContent';
 import HowItWorksContent from './features/how-it-works/HowItWorksContent';
 import PlansContent from './features/plans/PlansContent';
 import SupportedContent from './features/supported/SupportedContent';
+import TestimonialsContent from './features/testimonials/TestimonialsContent';
 
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
       <HowItWorksContent />
       <PlansContent />
       <SupportedContent />
+      <TestimonialsContent />
     </main>
   );
 }
