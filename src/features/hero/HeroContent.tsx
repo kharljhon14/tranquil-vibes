@@ -7,7 +7,7 @@ export default function HeroContent() {
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        transition={{ duration: 4 }}
+        transition={{ duration: 2 }}
       >
         <h1>Embark on a Serene Journey with TranquilVibes</h1>
         <p>Nurture Your Well-being and Discover Inner Harmony</p>

@@ -20,7 +20,13 @@ const arrowStyles: CSSProperties = {
 
 export default function TestimonialsContent() {
   return (
-    <div className={styles.testimonials}>
+    <motion.div
+      initial={{ scale: 0 }}
+      whileInView={{ scale: 1 }}
+      transition={{ duration: 1 }}
+      viewport={{ once: true }}
+      className={styles.testimonials}
+    >
       <h2>What Our Members Say</h2>
       <div className={styles.carousel}>
         <motion.div
@@ -103,6 +109,6 @@ export default function TestimonialsContent() {
           </div>
         </Carousel>
       </div>
-    </div>
+    </motion.div>
   );
 }

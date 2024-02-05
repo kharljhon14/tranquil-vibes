@@ -1,9 +1,16 @@
 import { GiAbstract002, GiAbstract037, GiAbstract086 } from 'react-icons/gi';
 import styles from './supportContent.module.css';
+import { motion } from 'framer-motion';
 
 export default function SupportedContent() {
   return (
-    <div className={styles.support}>
+    <motion.div
+      initial={{ scaleY: 0, opacity: 0, transformOrigin: 0 }}
+      whileInView={{ scaleY: 1, opacity: 1 }}
+      transition={{ duration: 0.5 }}
+      viewport={{ once: true }}
+      className={styles.support}
+    >
       <div className={styles.gratitude}>
         <h2>TranquilVibes Gratitude</h2>
         <p>
@@ -41,6 +48,6 @@ export default function SupportedContent() {
           </p>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 }

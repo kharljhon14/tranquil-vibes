@@ -1,3 +1,4 @@
+import { PiAsterisk } from 'react-icons/pi';
 import PlanCard, { Plan } from './PlanCard';
 import styles from './plansContent.module.css';
 import { motion } from 'framer-motion';
@@ -29,6 +30,16 @@ export default function PlansContent() {
       viewport={{ once: true }}
       className={styles.plansContainer}
     >
+      <motion.div
+        animate={{
+          scale: [1, 1, 1.4, 1.4, 1],
+          rotate: 360,
+        }}
+        transition={{ repeat: Infinity, duration: 4, ease: 'linear' }}
+        className={styles.asterisk}
+      >
+        <PiAsterisk />
+      </motion.div>
       <div className={styles.plans}>
         <h2>Choose the Plan That Aligns with Your Serenity Goals</h2>
         <div className={styles.planCards}>

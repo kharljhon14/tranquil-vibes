@@ -2,6 +2,17 @@
     background-color: #f7e1d2;
     clip-path: polygon(0 0, 100% 8%, 100% 100%, 0 100%);
     padding-top: 3rem;
+    position: relative;
+}
+
+.asterisk {
+    position: absolute;
+    left: 8.5rem;
+    top: 7.5rem;
+    font-size: 2.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .plans {

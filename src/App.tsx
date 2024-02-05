@@ -16,8 +16,8 @@ export default function App() {
       <AboutContent />
       <HowItWorksContent />
       <PlansContent />
-      <SupportedContent />
       <TestimonialsContent />
+      <SupportedContent />
     </main>
   );
 }
