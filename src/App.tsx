@@ -1,5 +1,6 @@
 import './App.css';
 import AboutContent from './features/about/AboutContent';
+import Footer from './features/footer/Footer';
 import Header from './features/header/Header';
 import HeroContent from './features/hero/HeroContent';
 import HowItWorksContent from './features/how-it-works/HowItWorksContent';
@@ -19,6 +20,7 @@ export default function App() {
       <TestimonialsContent />
       <SupportedContent />
       <WellnessContent />
+      <Footer />
     </main>
   );
 }
