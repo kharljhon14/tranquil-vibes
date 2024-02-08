@@ -39,7 +39,7 @@
 
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 980px) {
     .card {
         margin-bottom: 1.5rem;
     }

@@ -24,7 +24,7 @@
 }
 
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 980px) {
     .hero h1 {
         font-size: 1.8rem;
     }
