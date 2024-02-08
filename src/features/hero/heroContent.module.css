@@ -22,3 +22,21 @@
     font-size: 1.7rem;
     margin-bottom: 2.5rem;
 }
+
+
+@media screen and (max-width: 430px) {
+    .hero h1 {
+        font-size: 1.8rem;
+    }
+
+    .hero p {
+        font-size: 1.4rem;
+        margin-bottom: 2.5rem;
+    }
+
+    .hero button {
+        font-size: .9rem;
+    }
+
+
+}

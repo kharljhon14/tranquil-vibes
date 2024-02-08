@@ -48,3 +48,44 @@
     font-weight: 600;
     padding-bottom: 2rem;
 }
+
+@media screen and (max-width: 430px) {
+    .testimonials {
+        margin: 0 2rem;
+        padding-bottom: 2rem;
+        margin-top: 4rem;
+    }
+
+    .testimonials h2 {
+        font-size: 2rem;
+    }
+
+    .carousel p {
+        font-size: 1rem;
+
+    }
+
+    .carousel span {
+        font-size: 1.2rem;
+
+    }
+
+    .heart1 {
+        position: absolute;
+        top: -.9rem;
+        left: -.9rem;
+        transform: rotateZ(-20deg);
+        font-size: 3rem;
+        color: #ee4b4a;
+    }
+
+    .heart2 {
+        position: absolute;
+        bottom: -1rem;
+        right: -.9rem;
+        transform: rotateZ(10deg);
+        font-size: 2rem;
+        color: #ee4b4a;
+    }
+
+}

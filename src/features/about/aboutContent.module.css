@@ -46,3 +46,30 @@
     font-size: 1.2rem;
 
 }
+
+
+@media screen and (max-width: 430px) {
+    .aboutUs {
+        flex-direction: column;
+        margin: 0 2rem;
+    }
+
+    .aboutUs img {
+        display: none;
+    }
+
+
+    .content h2 {
+        font-size: 2rem;
+    }
+
+
+    .content h3 {
+        font-size: 1.4rem;
+    }
+
+    .content p {
+        font-size: 1.2rem;
+    }
+
+}

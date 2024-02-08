@@ -46,3 +46,28 @@
 .supporter p {
     line-height: 1.5;
 }
+
+@media screen and (max-width: 430px) {
+    .support {
+        margin: 0 2rem;
+    }
+
+    .gratitude {
+        margin-bottom: 3rem;
+    }
+
+    .gratitude h2 {
+        font-size: 2rem;
+    }
+
+    .supporters {
+        flex-direction: column;
+    }
+
+    .supporter h4 {
+
+        margin: 1.5rem 0;
+
+    }
+
+}

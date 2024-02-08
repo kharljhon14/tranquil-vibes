@@ -35,3 +35,30 @@
     align-items: center;
     justify-content: space-evenly;
 }
+
+
+@media screen and (max-width: 430px) {
+    .plans {
+        margin: 0 2rem;
+    }
+
+    .asterisk {
+        position: absolute;
+        left: 2rem;
+        top: 7.5rem;
+        font-size: 1.8rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .plans h2 {
+        font-size: 2rem;
+        margin-bottom: 4rem;
+        margin-top: 6rem;
+    }
+
+    .planCards {
+        flex-direction: column;
+    }
+}
